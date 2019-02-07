@@ -41,7 +41,7 @@ module DocuSign_eSign
     # For conditional fields this is the TabLabel of the parent tab that controls this tab's visibility.
     attr_accessor :conditional_parent_label
 
-    # For conditional fields, this is the value of the parent tab that controls the tab's visibility.  If the parent tab is a Checkbox, Radio button, Optional Signature, or Optional Initial use \"on\" as the value to show that the parent tab is active.
+    # For conditional fields, this is the value of the parent tab that controls the tab's visibility.  If the parent tab is a Checkbox, Radio button, Optional Signature, or Optional Initial use \"on\" as the value to show that the parent tab is active. 
     attr_accessor :conditional_parent_value
 
     # The DocuSign generated custom tab ID for the custom tab to be applied. This can only be used when adding new tabs for a recipient. When used, the new tab inherits all the custom tab properties.
@@ -54,10 +54,10 @@ module DocuSign_eSign
 
     attr_accessor :merge_field
 
-    #
+    # 
     attr_accessor :name
 
-    #
+    # 
     attr_accessor :optional
 
     # Specifies the page number on which the tab is located.
@@ -66,22 +66,22 @@ module DocuSign_eSign
     # Unique for the recipient. It is used by the tab element to indicate which recipient is to sign the Document.
     attr_accessor :recipient_id
 
-    #
+    # 
     attr_accessor :scale_value
 
     # Indicates the envelope status. Valid values are:  * sent - The envelope is sent to the recipients.  * created - The envelope is saved as a draft and can be modified and sent later.
     attr_accessor :status
 
-    # The unique identifier for the tab. The tabid can be retrieved with the [ML:GET call].
+    # The unique identifier for the tab. The tabid can be retrieved with the [ML:GET call].     
     attr_accessor :tab_id
 
     # The label string associated with the tab.
     attr_accessor :tab_label
 
-    #
+    # 
     attr_accessor :tab_order
 
-    # When set to **true**, the sender cannot change any attributes of the recipient. Used only when working with template recipients.
+    # When set to **true**, the sender cannot change any attributes of the recipient. Used only when working with template recipients. 
     attr_accessor :template_locked
 
     # When set to **true**, the sender may not remove the recipient. Used only when working with template recipients.

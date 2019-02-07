@@ -148,7 +148,7 @@ module DocuSign_eSign
         :'optional' => :'String',
         :'page_number' => :'String',
         :'recipient_id' => :'String',
-        :'scale_value' => :'Number',
+        :'scale_value' => :'Float',
         :'status' => :'String',
         :'tab_id' => :'String',
         :'tab_label' => :'String',
